@@ -141,6 +141,7 @@ p {
 
 .section__introduction {
     display: flex;
+padding-bottom: 5rem;
 }
 
 .section p {}
@@ -286,6 +287,10 @@ footer p a {}
     .narrow-window-text-show{
     display: block;
 }
+    .contact-info{
+        margin-left: unset;
+    }
+        
 } 
 
 
@@ -294,7 +299,7 @@ footer p a {}
     .wrapper-page {
     padding: 5px;
 }
-        
+    
 }
 
 
@@ -304,4 +309,8 @@ footer p a {}
         left: 120px;
             bottom: 0;
     }
+}
+
+aside {
+    margin-left:auto;
 }
