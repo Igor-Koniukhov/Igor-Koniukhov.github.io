@@ -282,6 +282,7 @@ p {
 	position: relative;
 	z-index: 100;
 	padding-right: 10px;
+	margin-top: 2px;
 }
 
 .dropdown-title {
@@ -454,10 +455,12 @@ footer {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-	.section__introduction {
-		display: flex;
-		flex-direction: column-reverse;
-	}
+
+
+}
+
+@media only screen and (max-width: 576px) {
+
 
 	.col-md-6 {
 		flex-direction: column;
@@ -495,11 +498,12 @@ footer {
 	.section__skills {
 		margin-bottom: 20px;
 	}
-	.ml-auto {
-		 margin-left: unset;
-	}
+
 	.row{
 		align-items: unset;
+	}
+	.pl10{
+		padding-left: 10px;
 	}
 
 }
