@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, ">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/swiper.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>Ant-group</title>
+</head>
+<body>
+<header class="header vh-100">
+	<div class="body-header ">
+		<div class="container-main-text-5p visible">
+			<h1 class="main-title-accordion-p ">Структура группы компаний Ant Group</h1>
+		</div>
+		<div class="main-picture-wrapper">
+			<div class="main-picture " style="background-image: url('img/main1.png');">
+				<div class="ant-info ant-info-horisont-hidden">
+					<h2 class="ant-info__title ant-info__title_white">TRADE HOUSE</h2>
+					<p class="ant-info__description">Производственная компания</p>
+					<a class="button button_transparent-with-arrow-white" href="#">откликнуться</a>
+				</div>
+			</div>
+			<div class="main-picture " style="background-image: url('img/main2.png')">
+				<div class="ant-info">
+					<h2 class="ant-info__title ant-info__title_white">ANT-Engineering</h2>
+					<p class="ant-info__description">Проектирование объектов</p>
+					<a class="button button_transparent-with-arrow-white" href="#">откликнуться</a>
+				</div>
+			</div>
+			<div class="main-picture " style="background-image: url('img/main3.png')">
+				<div class="ant-info">
+					<h2 class="ant-info__title ant-info__title_white">ANT-Build Market</h2>
+					<p class="ant-info__description">Производство на экспорт</p>
+					<a class="button button_transparent-with-arrow-white" href="#">откликнуться</a>
+				</div>
+			</div>
+			<div class="main-picture " style="background-image: url('img/main4.png')">
+				<div class="ant-info">
+					<h2 class="ant-info__title ant-info__title_white">ANT-Logistic</h2>
+					<p class="ant-info__description">Распределительный центр</p>
+					<a class="button button_transparent-with-arrow-white" href="#">откликнуться</a>
+				</div>
+			</div>
+			<div class="main-picture " style="background-image: url('img/main5.png')">
+				<div class="ant-info">
+					<h2 class="ant-info__title ant-info__title_white">ANT-PROM</h2>
+					<p class="ant-info__description">Транспорт</p>
+					<a class="button button_transparent-with-arrow-white" href="#">откликнуться</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-block container">
+			<div class="logo-block">
+				<a class="link-logo" href="index.html"></a><img src="img/logo.png" alt="logo" class="logo-block__item">
+				<img src="img/logo-menu.png" alt="logo" class="logo-block__item logo-block__item_active">
+			</div>
+			<nuv class="nuv-block">
+				<div class="nuv-block__dropdown  nuv-block__dropdown_bird-active"><a class="nuv-block__reference nuv-block__reference_active" href="company.html">компания</a></div>
+				<div class="nuv-block__dropdown nuv-block__dropdown_bird-active"><a class="nuv-block__reference" href="#">продукция</a></div>
+
+				<div class="nuv-block__dropdown"><a class="nuv-block__reference" href="#">кейсы</a></div>
+				<div class="nuv-block__dropdown"><a class="nuv-block__reference" href="#">услуги</a></div>
+				<div class="nuv-block__dropdown"><a class="nuv-block__reference" href="#">медиа</a></div>
+				<div class="nuv-block__dropdown"><a class="nuv-block__reference" href="#">контакты</a></div>
+				<div class="lang-block hidden">
+					<div class="lang-block__item active lang-block__item_ru"><a class="lang-block__reference" href="#">ru</a></div>
+					<div class="lang-block__item lang-block__item_en"><a class="lang-block__reference" href="#">en</a></div>
+				</div>
+			</nuv>
+			<div class="lang-block">
+				<div class="lang-block__item active lang-block__item_ru"><a class="lang-block__reference" href="#">ru</a></div>
+				<div class="lang-block__item lang-block__item_en"><a class="lang-block__reference" href="#">en</a></div>
+			</div>
+			<input type="submit" class=" button button_red-header button_red" value="написать нам">
+		</div>
+	</div>
+</header>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="js/swiper.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container_black-cover', {
+		slidesPerView: 'auto',
+		slidesPerGroup: 1,
+		spaceBetween: 3,
+		initialSlide: 0,
+		keyboard: {
+			enabled: true,
+		},
+		watchSlidesProgress: true,
+		watchSlidesProgress: true,
+		parallax: true,
+		fadeEffect: {
+			crossFade: true
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+
+</script>
+
+<script>
+	var swiper = new Swiper('.swiper-container_certificate', {
+		slidesPerView: 'auto',
+		slidesPerGroup: 1,
+		spaceBetween: 50,
+		initialSlide: 0,
+		normalizeSlideIndex: true,
+		slidesOffsetBefore: 0,
+		freeMode: false,
+		freeModeMomentum: false,
+		freeModeMomentumBounce: false,
+		freeModeSticky: true,
+		watchSlidesProgress: true,
+		parallax: true,
+		runCallbacksOnInit: true,
+		keyboard: {
+			enabled: true,
+		},
+		/*loop: true,*/
+		navigation: {
+
+			nextEl: '.btn-nex-certificatest',
+			prevEl: '.btn-prev-certificates',
+		},
+	});
+
+</script>
+
+<script>
+
+
+</script>
+<script>
+	let slidePadd = function() {
+		if (window.innerWidth < 768) {
+			slidePadd = 0;
+		} else {
+			slidePadd = -380;
+		}
+
+		return slidePadd;
+	}
+
+
+	var swiper = new Swiper('.swip-cont-sample', {
+
+		slidesPerView: 'auto',
+		slidesPerGroup: 1,
+		spaceBetween: 3,
+		initialSlide: 0,
+		slidesOffsetBefore: slidePadd,
+		keyboard: {
+			enabled: true,
+		},
+		/*loop: true,*/
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+
+</script>
+<script>
+	var swiper = new Swiper('.swiper-container-lgcl', {
+		slidesPerView: 'auto',
+		slidesPerGroup: 1,
+		spaceBetween: 3,
+		initialSlide: 0,
+		keyboard: {
+			enabled: true,
+		},
+		normalizeSlideIndex: true,
+		freeMode: false,
+		navigation: {
+			nextEl: '.btn-next-lgcl',
+			prevEl: '.btn-prev-lgcl',
+		},
+	});
+
+</script>
+
+
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="js/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyAMBQhI3BHrJlpQ9CtI87l5qno4vM_GSg0&callback=initMap">
+</script>
+<scrpt src="node_modules/jquery/dist/jquery.min.js"></scrpt>
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
